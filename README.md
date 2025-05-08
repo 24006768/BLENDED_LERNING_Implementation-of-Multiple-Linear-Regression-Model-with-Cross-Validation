@@ -9,45 +9,24 @@ To write a program to predict the price of cars using a multiple linear regressi
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
+1. Import Libraries: Bring in the necessary libraries.
+2. Load the Dataset: Load the dataset into your environment.
+3. Data Preprocessing: Handle any missing data and encode categorical variables as needed.
+4. Define Features and Target: Split the dataset into features (X) and the target variable (y).
+5. Split Data: Divide the dataset into training and testing sets.
+6. Build Multiple Linear Regression Model: Initialize and create a multiple linear regression model.
+7. Train the Model: Fit the model to the training data.
+8. Evaluate Performance: Assess the model's performance using cross-validation.
+9. Display Model Parameters: Output the model’s coefficients and intercept.
+10. Make Predictions & Compare: Predict outcomes and compare them to the actual values.
 
-1. Import Libraries:
-Bring in the necessary libraries.
-
-2.Load the Dataset:
-Load the dataset into your environment.
-
-3.Data Preprocessing:
-Handle any missing data and encode categorical variables as needed.
-
-4.Define Features and Target:
-Split the dataset into features (X) and the target variable (y).
-
-5.Split Data:
-Divide the dataset into training and testing sets.
-
-6.Build Multiple Linear Regression Model:
-Initialize and create a multiple linear regression model.
-
-7.Train the Model:
-Fit the model to the training data.
-
-8.Evaluate Performance:
-Assess the model's performance using cross-validation.
-
-9.Display Model Parameters:
-Output the model’s coefficients and intercept.
-
-10.Make Predictions & Compare:
-Predict outcomes and compare them to the actual values.
- 
 ## Program:
 ```
 /*
 Program to implement the multiple linear regression model for predicting car prices with cross-validation.
-Developed by: DAKSHA C
-RegisterNumber:  212224230048
+Developed by: DEVADHAARINI D
+RegisterNumber: 212223230040 
 */
-
 # Importing necessary libraries
 import pandas as pd
 import numpy as np
@@ -98,12 +77,12 @@ plt.ylabel("Predicted Prices")
 plt.title("Actual vs Predicted Prices")
 plt.plot([min(y_test), max(y_test)], [min(y_test), max(y_test)], color='red')  # Perfect prediction line
 plt.show()
-
 ```
 
 ## Output:
-
-![Screenshot 2025-04-18 092632](https://github.com/user-attachments/assets/d6ab2694-59f9-466d-bd18-72d3287acc69)
+![image](https://github.com/user-attachments/assets/0c77de6c-956f-46b8-b102-b55fce3164b0)
+![image](https://github.com/user-attachments/assets/b6db3fa9-8a23-4645-883d-a1d3aca4ef21)
+![image](https://github.com/user-attachments/assets/7a872c64-607e-4576-b429-8a438730cc8c)
 
 ## Result:
 Thus, the program to implement the multiple linear regression model with cross-validation for predicting car prices is written and verified using Python programming.
