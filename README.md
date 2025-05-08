@@ -81,8 +81,9 @@ plt.show()
 
 ## Output:
 ![image](https://github.com/user-attachments/assets/0c77de6c-956f-46b8-b102-b55fce3164b0)
-![image](https://github.com/user-attachments/assets/b6db3fa9-8a23-4645-883d-a1d3aca4ef21)
 ![image](https://github.com/user-attachments/assets/7a872c64-607e-4576-b429-8a438730cc8c)
+![image](https://github.com/user-attachments/assets/b6db3fa9-8a23-4645-883d-a1d3aca4ef21)
+
 
 ## Result:
 Thus, the program to implement the multiple linear regression model with cross-validation for predicting car prices is written and verified using Python programming.
